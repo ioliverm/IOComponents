@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5608032019D887D1003E4965 /* IOReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5608031F19D887D1003E4965 /* IOReusableView.m */; };
-		5608032319D8880A003E4965 /* IOReusableViewCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5608032219D8880A003E4965 /* IOReusableViewCache.m */; };
-		5608032819D96981003E4965 /* IOViewComposer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5608032719D96981003E4965 /* IOViewComposer.m */; };
-		5608032C19D97F3E003E4965 /* IOLabelComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 5608032B19D97F3E003E4965 /* IOLabelComponent.m */; };
-		5608033019D98119003E4965 /* IOBasicComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 5608032F19D98119003E4965 /* IOBasicComponent.m */; };
+		566BEB8219D9C9F6002B5F53 /* IOBasicComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 566BEB7819D9C9F6002B5F53 /* IOBasicComponent.m */; };
+		566BEB8319D9C9F6002B5F53 /* IOLabelComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 566BEB7B19D9C9F6002B5F53 /* IOLabelComponent.m */; };
+		566BEB8419D9C9F6002B5F53 /* IOReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 566BEB7D19D9C9F6002B5F53 /* IOReusableView.m */; };
+		566BEB8519D9C9F6002B5F53 /* IOReusableViewCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 566BEB7F19D9C9F6002B5F53 /* IOReusableViewCache.m */; };
+		566BEB8619D9C9F6002B5F53 /* IOViewComposer.m in Sources */ = {isa = PBXBuildFile; fileRef = 566BEB8119D9C9F6002B5F53 /* IOViewComposer.m */; };
+		56EB26CB19D9CA3D00181906 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56EB26CA19D9CA3500181906 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,18 +30,18 @@
 /* Begin PBXFileReference section */
 		5608030419D87EE6003E4965 /* libIOComponents.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIOComponents.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5608030F19D87EE6003E4965 /* IOComponentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOComponentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5608031219D87EE6003E4965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5608031E19D887D1003E4965 /* IOReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOReusableView.h; sourceTree = "<group>"; };
-		5608031F19D887D1003E4965 /* IOReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOReusableView.m; sourceTree = "<group>"; };
-		5608032119D8880A003E4965 /* IOReusableViewCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOReusableViewCache.h; sourceTree = "<group>"; };
-		5608032219D8880A003E4965 /* IOReusableViewCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOReusableViewCache.m; sourceTree = "<group>"; };
-		5608032619D96981003E4965 /* IOViewComposer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOViewComposer.h; sourceTree = "<group>"; };
-		5608032719D96981003E4965 /* IOViewComposer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOViewComposer.m; sourceTree = "<group>"; };
-		5608032A19D97F3E003E4965 /* IOLabelComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOLabelComponent.h; sourceTree = "<group>"; };
-		5608032B19D97F3E003E4965 /* IOLabelComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOLabelComponent.m; sourceTree = "<group>"; };
-		5608032D19D97F5B003E4965 /* IOComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOComponent.h; sourceTree = "<group>"; };
-		5608032E19D98119003E4965 /* IOBasicComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOBasicComponent.h; sourceTree = "<group>"; };
-		5608032F19D98119003E4965 /* IOBasicComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOBasicComponent.m; sourceTree = "<group>"; };
+		566BEB7719D9C9F6002B5F53 /* IOBasicComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOBasicComponent.h; sourceTree = "<group>"; };
+		566BEB7819D9C9F6002B5F53 /* IOBasicComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOBasicComponent.m; sourceTree = "<group>"; };
+		566BEB7919D9C9F6002B5F53 /* IOComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOComponent.h; sourceTree = "<group>"; };
+		566BEB7A19D9C9F6002B5F53 /* IOLabelComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOLabelComponent.h; sourceTree = "<group>"; };
+		566BEB7B19D9C9F6002B5F53 /* IOLabelComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOLabelComponent.m; sourceTree = "<group>"; };
+		566BEB7C19D9C9F6002B5F53 /* IOReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOReusableView.h; sourceTree = "<group>"; };
+		566BEB7D19D9C9F6002B5F53 /* IOReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOReusableView.m; sourceTree = "<group>"; };
+		566BEB7E19D9C9F6002B5F53 /* IOReusableViewCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOReusableViewCache.h; sourceTree = "<group>"; };
+		566BEB7F19D9C9F6002B5F53 /* IOReusableViewCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOReusableViewCache.m; sourceTree = "<group>"; };
+		566BEB8019D9C9F6002B5F53 /* IOViewComposer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOViewComposer.h; sourceTree = "<group>"; };
+		566BEB8119D9C9F6002B5F53 /* IOViewComposer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOViewComposer.m; sourceTree = "<group>"; };
+		56EB26CA19D9CA3500181906 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +65,8 @@
 		560802FB19D87EE6003E4965 = {
 			isa = PBXGroup;
 			children = (
-				5608030619D87EE6003E4965 /* IOComponents */,
-				5608031019D87EE6003E4965 /* IOComponentsTests */,
+				566BEB7619D9C9F6002B5F53 /* Source */,
+				56EB26C919D9CA3500181906 /* Tests */,
 				5608030519D87EE6003E4965 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,62 +80,30 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5608030619D87EE6003E4965 /* IOComponents */ = {
+		566BEB7619D9C9F6002B5F53 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				5608032919D97D91003E4965 /* View Composer */,
-				5608032519D88978003E4965 /* Reusable Views */,
-				5608032419D88971003E4965 /* Components */,
+				566BEB7719D9C9F6002B5F53 /* IOBasicComponent.h */,
+				566BEB7819D9C9F6002B5F53 /* IOBasicComponent.m */,
+				566BEB7919D9C9F6002B5F53 /* IOComponent.h */,
+				566BEB7A19D9C9F6002B5F53 /* IOLabelComponent.h */,
+				566BEB7B19D9C9F6002B5F53 /* IOLabelComponent.m */,
+				566BEB7C19D9C9F6002B5F53 /* IOReusableView.h */,
+				566BEB7D19D9C9F6002B5F53 /* IOReusableView.m */,
+				566BEB7E19D9C9F6002B5F53 /* IOReusableViewCache.h */,
+				566BEB7F19D9C9F6002B5F53 /* IOReusableViewCache.m */,
+				566BEB8019D9C9F6002B5F53 /* IOViewComposer.h */,
+				566BEB8119D9C9F6002B5F53 /* IOViewComposer.m */,
 			);
-			path = IOComponents;
+			path = Source;
 			sourceTree = "<group>";
 		};
-		5608031019D87EE6003E4965 /* IOComponentsTests */ = {
+		56EB26C919D9CA3500181906 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				5608031119D87EE6003E4965 /* Supporting Files */,
+				56EB26CA19D9CA3500181906 /* Info.plist */,
 			);
-			path = IOComponentsTests;
-			sourceTree = "<group>";
-		};
-		5608031119D87EE6003E4965 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5608031219D87EE6003E4965 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		5608032419D88971003E4965 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				5608032D19D97F5B003E4965 /* IOComponent.h */,
-				5608032E19D98119003E4965 /* IOBasicComponent.h */,
-				5608032F19D98119003E4965 /* IOBasicComponent.m */,
-				5608032A19D97F3E003E4965 /* IOLabelComponent.h */,
-				5608032B19D97F3E003E4965 /* IOLabelComponent.m */,
-			);
-			name = Components;
-			sourceTree = "<group>";
-		};
-		5608032519D88978003E4965 /* Reusable Views */ = {
-			isa = PBXGroup;
-			children = (
-				5608031E19D887D1003E4965 /* IOReusableView.h */,
-				5608031F19D887D1003E4965 /* IOReusableView.m */,
-				5608032119D8880A003E4965 /* IOReusableViewCache.h */,
-				5608032219D8880A003E4965 /* IOReusableViewCache.m */,
-			);
-			name = "Reusable Views";
-			sourceTree = "<group>";
-		};
-		5608032919D97D91003E4965 /* View Composer */ = {
-			isa = PBXGroup;
-			children = (
-				5608032619D96981003E4965 /* IOViewComposer.h */,
-				5608032719D96981003E4965 /* IOViewComposer.m */,
-			);
-			name = "View Composer";
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56EB26CB19D9CA3D00181906 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,11 +194,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5608032C19D97F3E003E4965 /* IOLabelComponent.m in Sources */,
-				5608032319D8880A003E4965 /* IOReusableViewCache.m in Sources */,
-				5608032819D96981003E4965 /* IOViewComposer.m in Sources */,
-				5608033019D98119003E4965 /* IOBasicComponent.m in Sources */,
-				5608032019D887D1003E4965 /* IOReusableView.m in Sources */,
+				566BEB8319D9C9F6002B5F53 /* IOLabelComponent.m in Sources */,
+				566BEB8219D9C9F6002B5F53 /* IOBasicComponent.m in Sources */,
+				566BEB8519D9C9F6002B5F53 /* IOReusableViewCache.m in Sources */,
+				566BEB8419D9C9F6002B5F53 /* IOReusableView.m in Sources */,
+				566BEB8619D9C9F6002B5F53 /* IOViewComposer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
